@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-rxjs-test-client-side-solution",
+    "id": "7ac92b19-2fb1-432d-a7e0-8980b62acd56",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-rxjs-test.sppkg"
+  }
+}
