@@ -1,0 +1,8 @@
+﻿{
+  "siteurl": "https://domainname.sharepoint.com",
+  "username": "username@domainname.onmicrosoft.com",
+  "password": "xxxxx",
+  "jsFilePath": "Apps/SPBuildAutomation/release/js",
+  "cssFilePath": "Apps/SPBuildAutomation/release/css",
+  "htmlFilePath": "Apps/SPBuildAutomation/release"
+}

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <link href="../Apps/SPBuildAutomation/dev/lib/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css" id="bootCss">
+    <!-- build:css -->
+    <link href="../Apps/SPBuildAutomation/dev/css/app.css" rel="stylesheet" type="text/css" id="appCss">
+    <!-- endbuild -->
+    <script src="../Apps/SPBuildAutomation/dev/lib/jq/jquery-3.1.1.js" type="text/javascript" id="jqLibrary"></script>
+</head>
+<body>
+    <div data-ng-app="buildAutomationApp">
+        <div data-ng-controller="BuildAutomationAppController as vm" class="ng-cloak">
+            <div class="container form-border top-margin-label">
+                <div class="row top-margin-label">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Request Title</th>
+                                        <th>Assigned To</th>
+                                        <th>Priority</th>
+                                        <th>Request Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="requestTable"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        <span data-ng-show="vm.errorMessage.length > 0" class="form-control alert-danger alert-height">{{ vm.errorMessage }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../Apps/SPBuildAutomation/dev/lib/bootstrap/js/bootstrap.js" type="text/javascript" id="bootLibrary"></script>
+    <script src="../Apps/SPBuildAutomation/dev/lib/ng/angular-1.6.1.js" type="text/javascript" id="ngLibrary"></script>
+    <!-- build:js -->
+    <script src="../Apps/SPBuildAutomation/dev/js/controllers/mainController.js" type="text/javascript" id="mainController"></script>    
+    <script src="../Apps/SPBuildAutomation/dev/js/services/dataService.js" type="text/javascript"></script>
+    <script src="../Apps/SPBuildAutomation/dev/js/services/listService.js" type="text/javascript"></script>
+    <!-- endbuild -->
+</body>
+</html>

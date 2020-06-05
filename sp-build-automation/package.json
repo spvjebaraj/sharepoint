@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "automate-build-process-in-sharepoint-online",
+  "private": true,
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^2.0.2",
+    "gulp-sourcemaps": "^2.3.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-spsave": "^3.0.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-cache-bust": "^1.1.0"
+  }
+}
